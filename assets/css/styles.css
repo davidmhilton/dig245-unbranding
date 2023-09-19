@@ -1,11 +1,10 @@
-
 /* css */
 
 .radial{
     height: 700px;
     background: radial-gradient(#08480BCC 0%, #0C470F 60%);
-    /*background-color: #0C470F;*/
 }
+
 .bottle{
     height: 700px;
     width: 450px;
