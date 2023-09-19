@@ -1,2 +1,29 @@
 
 /* css */
+
+.radial{
+    height: 700px;
+    background: radial-gradient(#08480BCC 0%, #0C470F 60%);
+    /*background-color: #0C470F;*/
+}
+.bottle{
+    height: 700px;
+    width: 450px;
+    object-position: 150px 0px;
+    position: fixed;
+    z-index: 1;
+}
+.star{
+    position: fixed;
+    top: 250px;
+    left: 600px;
+
+}
+
+.overlay{
+    position: fixed;
+    font-size: 120px;
+    color: white;
+    font-family: 'Heineken', sans-serif;
+    margin: 0;
+}
