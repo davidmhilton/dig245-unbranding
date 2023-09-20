@@ -17,17 +17,18 @@
     position: fixed;
     top: 250px;
     left: 600px;
+    z-index: 2;
 }
 
-#img:hover ~ #show{
-    visibility: visible;
+#img:hover{
+    cursor: pointer;
 }
 
-#img:hover ~ #hide{
-    transform: rotate(90deg);
+/* #img:hover ~ #hide{
+    transform: rotate(s90deg);
     top: 200px;
     left: 350px;
-}
+} */
 
 #show{
     visibility: hidden;
